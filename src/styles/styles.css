@@ -1,0 +1,21 @@
+.foreslaet {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+body {
+  background-color: #121212;
+  font-family: "arial", "sans-serif";
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+.yourshows {
+  grid-template-columns: repeat(5, auto);
+  display: grid;
+}

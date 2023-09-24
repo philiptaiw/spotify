@@ -1,0 +1,34 @@
+---
+const image = Astro.props.image;
+const text = Astro.props.text;
+---
+<article>
+<a href="#/">
+<img src={image} alt="forslaet">
+                    
+                    <h3>{text}</h3>
+                    </a>
+			</article>
+            <style>
+
+                a {
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                }
+                
+                article {
+                    background-color: rgb(29, 28, 28);
+                    margin: 10px;
+                    display: flex;
+                    border-radius: 8px;
+                    overflow: hidden;
+                    height: 100px;
+                }
+                
+                img {
+                    margin-right: 10px;
+                    max-height: 100%;
+                }
+            </style>

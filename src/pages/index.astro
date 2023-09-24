@@ -1,0 +1,47 @@
+---
+import Foreslaet from "../components/Foreslaet.astro";
+import '../styles/styles.css'
+import Yourshows from "../components/Yourshows.astro";
+---
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Spotify</title>
+	</head>
+	<body>
+		<header>
+
+		</header>
+		<main>
+			<h2>Good afternoon</h2>
+			<section class="foreslaet">
+		<Foreslaet image="https://picsum.photos/id/65/150/150" text="Singer Songwriter"/>
+		<Foreslaet image="https://picsum.photos/id/68/150/150" text="Ocean & Chill"/>
+		<Foreslaet image="https://picsum.photos/id/76/150/150" text="In The Woods"/>
+		<Foreslaet image="https://picsum.photos/id/240/150/150" text="Moody"/>
+		<Foreslaet image="https://picsum.photos/id/331/150/150" text="Sigma Grindset"/>
+		<Foreslaet image="https://picsum.photos/id/325/150/150" text="Adventure"/>
+			</section>
+			
+		<h3>Your shows</h3>
+
+		<section class="yourshows">
+			
+		<Yourshows image="https://picsum.photos/id/334/150/150" text="Daily Mix 1" ptext="$uicideboy$, Bones, Ghostmane" />
+		<Yourshows image="https://picsum.photos/id/338/150/150" text="Daily Mix 2" ptext=" Arctic Monkeys, Arcade Fire, The Strokes" />
+		<Yourshows image="https://picsum.photos/id/349/150/150" text="Daily Mix 3" ptext="Led Zeppelin, The Beatles, The Who" />
+		<Yourshows image="https://picsum.photos/id/240/150/150" text="Daily Mix 5" ptext="Beethoven, Mozart, Schubert, Bach" />
+		<Yourshows image="https://picsum.photos/id/364/150/150" text="Daily Mix 4" ptext="Skrillex, Diplo, Fred... again" />
+
+			</section>
+		<footer>
+
+		</footer>
+		</main>
+	</body>
+</html>

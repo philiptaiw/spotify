@@ -1,0 +1,45 @@
+---
+const image = Astro.props.image;
+const text = Astro.props.text;
+const ptext = Astro.props.ptext;
+---
+
+<article>
+<a href="#/">
+<img src={image} alt="yourshows">
+                    
+                    <h3>{text}</h3>
+                    <p>{ptext}</p>
+                    </a>
+			</article>
+
+            <style>
+                a {
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                p {
+                    color: #a6a6a6;
+                    display: flex;
+                    text-align: center;
+                }
+
+            
+                article {
+                    background-color: rgb(29, 28, 28);
+                    margin: 10px;
+                    border-radius: 8px;
+                    width: 250px;
+                    height: 100%;
+                }
+                img {
+                width: 230px;
+                border-radius: 8px;
+                margin: 10px;
+                }
+            </style>
